@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 | Agro Forte & Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">AGRINHO 2026 🚜</div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#categorias">Categorias</a>
+            <a href="#cronograma">Cronograma</a>
+            <a href="#" class="btn-nav">Inscrições</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>AGRO FORTE, FUTURO SUSTENTÁVEL</h1>
+            <p>Unindo a inovação tecnológica ao equilíbrio ambiental no Paraná.</p>
+            <a href="#" class="btn-main">PARTICIPAR AGORA</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="container">
+        <h2 class="section-title">O Equilíbrio é a nossa Força</h2>
+        <div class="text-center">
+            <p>O tema de 2026 foca na harmonia entre a alta produtividade e a preservação dos recursos naturais. Queremos ver como a sua escola está a transformar o futuro do campo.</p>
+        </div>
+    </section>
+
+    <section id="categorias" class="container bg-white shadow">
+        <h2 class="section-title">Categorias 2026</h2>
+        <div class="grid-container">
+            <div class="card">
+                <div class="icon">🤖</div>
+                <h3>Robótica</h3>
+                <p>Soluções automatizadas para o uso eficiente de água e solo.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📝</div>
+                <h3>Redação</h3>
+                <p>Textos que conectam a realidade rural à inovação urbana.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🎨</div>
+                <h3>Desenho</h3>
+                <p>A visão artística das crianças sobre o Agro Forte.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cronograma" class="container">
+        <h2 class="section-title">Cronograma Oficial</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fase</th>
+                        <th>Data Limite</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Inscrições de Projetos</td>
+                        <td>08 de Junho, 2026</td>
+                        <td class="status-open">Aberto</td>
+                    </tr>
+                    <tr>
+                        <td>Avaliação Regional</td>
+                        <td>Julho, 2026</td>
+                        <td>Em breve</td>
+                    </tr>
+                    <tr>
+                        <td>Final Estadual</td>
+                        <td>Novembro, 2026</td>
+                        <td>Agendado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p><strong>Agrinho 2026</strong> - Sistema FAEP/SENAR-PR</p>
+            <p>Cultivando saber, colhendo o futuro.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
