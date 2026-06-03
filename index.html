@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 | Agro Forte & Sustentável</title>
+    <style>
+        :root {
+            --primary-green: #2d5a27;
+            --tech-blue: #00a8cc;
+            --light-bg: #f4f7f6;
+            --dark-text: #333;
+            --accent-green: #4caf50;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+        }
+
+        /* Header */
+        header {
+            background: #fff;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: var(--primary-green);
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: var(--dark-text);
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--tech-blue);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&q=80&w=1500');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .btn-main {
+            background-color: var(--accent-green);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .btn-main:hover {
+            transform: scale(1.05);
+            background-color: #388e3c;
+        }
+
+        /* Content Sections */
+        section {
+            padding: 50px 10%;
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--primary-green);
+            margin-bottom: 40px;
+        }
+
+        /* Grid de Categorias */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 5px solid var(--tech-blue);
+            text-align: center;
+        }
+
+        /* Tabela */
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-green);
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            nav { display: none; } /* Simplificação para mobile */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">AGRINHO 2026 🚜</div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Cronograma</a>
+            <a href="#">Categorias</a>
+            <a href="#">Inscrições</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>AGRO FORTE, FUTURO SUSTENTÁVEL</h1>
+        <p>A tecnologia e o campo em harmonia para as próximas gerações.</p>
+        <br>
+        <a href="#" class="btn-main">INSCREVER PROJETO</a>
+    </section>
+
+    <section id="sobre">
+        <h2 class="section-title">O Equilíbrio é a nossa Força</h2>
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <p>Em 2026, o Agrinho desafia alunos e professores a pensarem além. Como a robótica, a IA e as boas práticas de manejo podem tornar o agro paranaense ainda mais forte e respeitoso com o meio ambiente?</p>
+        </div>
+    </section>
+
+    <section id="categorias">
+        <h2 class="section-title">Categorias de Destaque</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>Robótica</h3>
+                <p>Soluções automatizadas para economia de água e energia no campo.</p>
+            </div>
+            <div class="card">
+                <h3>Redação</h3>
+                <p>O papel do jovem na construção de um agro consciente.</p>
+            </div>
+            <div class="card">
+                <h3>Desenho</h3>
+                <p>Expressando a beleza e a inovação das fazendas do futuro.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cronograma">
+        <h2 class="section-title">Cronograma Oficial</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fase</th>
+                        <th>Data Limite</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Inscrições e Envio de Projetos</td>
+                        <td>08 de Junho, 2026</td>
+                        <td><strong>Aberto</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Avaliação Regional</td>
+                        <td>Julho, 2026</td>
+                        <td>Aguardando</td>
+                    </tr>
+                    <tr>
+                        <td>Premiação Estadual</td>
+                        <td>Novembro, 2026</td>
+                        <td>Aguardando</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agrinho Paraná - SENAR-PR & FAEP</p>
+        <p><small>Cultivando saber, colhendo o futuro.</small></p>
+    </footer>
+
+</body>
+</html>
